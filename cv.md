@@ -45,7 +45,7 @@ function createPhoneNumber(numbers){
     * [The Complete Web Developer in 2021: Zero to Mastery](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery)
     * [Complete React Developer in 2021](https://academy.zerotomastery.io/p/complete-react-developer-redux-hooks-graphql-zero-to-mastery)
 
-#Languages
-English - B1
-Russian - native speaker
-Polish - A2
+# Languages
+* English - B1
+* Russian - native speaker
+* Polish - A2
