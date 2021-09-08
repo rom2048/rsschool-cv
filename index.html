@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>HTML, CSS & Git Basics</title>
 </head>
@@ -11,15 +12,41 @@
   <div class="container">
     <header>
       <div class="photo-container">
-        <img src="" alt="my photo">
+        <img src="./roman.jpg" alt="my photo">
       </div>
       <div class="info-container">
         <div class="name">
           <h1>Roman Mamontov</h1>
         </div>
         <div class="contacts">
-          <div class="left"></div>
-          <div class="right"></div>
+          <div class="column left">
+            <div class="column-item">    
+              <div class="icon-container">
+                <img src="./mobile-phone.svg" alt="phone-ico">
+              </div>
+              <p>+375(44)594-10-07</p>
+            </div>
+            <div class="column-item">    
+              <div class="icon-container">
+                <img src="./github-logo.svg" alt="github-ico">
+              </div>
+              <a href="https://github.com/rom2048">rom2048</a>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="column-item">    
+              <div class="icon-container">
+                <img src="./email.svg" alt="email-ico">
+              </div>
+              <a href="mailto:mamontov.r1995@gmail.com">Gmail</a>
+            </div>
+            <div class="column-item">    
+              <div class="icon-container">
+                <img src="./linkedin.png" alt="linkedin-ico">
+              </div>
+              <a href="https://www.linkedin.com/in/roman-mamontov-b7b355149/">Linkedin</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
