@@ -40,6 +40,17 @@
        url('./fonts/catamaran-v8-latin-700.svg#Catamaran') format('svg'); /* Legacy iOS */
 }
 
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Catamaran';
+	font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .container {
 	width: 1000px;
 	margin: 0 auto;
@@ -68,7 +79,6 @@ img {
 }
 
 h1 {
-	font-family: 'Catamaran';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 48px;
@@ -76,33 +86,102 @@ h1 {
 	border-bottom: 2px solid white;
 }
 
+h2 {
+	font-family: 'Catamaran';
+	font-weight: 500;
+	font-size: 36px;
+	color: #0077b7;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+h2::after {
+	content: "";
+	width: 60%;
+	height: 2px;
+	background-color: #0077b7;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+.blue {
+	color: #0077b7;
+}
+
+a {
+	text-decoration: none;
+}
+
 .contacts {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 20px;
 	color: white;
-	padding: 0 10px;
 }
 
-.column {
-	display: flex;
-	flex-direction: column;
-}
-
-.column-item {
-	display: flex;
-	align-items: center;
-	margin-bottom: 5px;
-}
-
-.column-item p,
-.column-item a  {
-	padding-left: 5px;
-}
-
-.icon-container {
-	width: 30px;
+.icon{
+	width: 35px;
 	height: auto;
 }
 
-.right {
-	margin: 10px 0 0 20px;
+.contact-item {
+	display: flex;
+	align-items: center;
+}
+
+.contacts-info {
+	margin-left: 10px;
+	color: #ffffff;
+}
+/* Header end */
+main {
+	padding: 50px;
+}
+
+article {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.education-info,
+.languages-info {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	grid-row-gap: 5px;
+	padding: 0 20px;
+	align-items: center;
+}
+
+li {
+	text-transform: uppercase;
+}
+footer {
+	background-color: #202026;
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-logo {
+	width: 100px;
+	height: auto;
+}
+
+.rs-logo {
+	width: 250px;
+	height: auto;
+}
+
+.created {
+	font-size: 32px;
 }
