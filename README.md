@@ -1,1 +1,1 @@
-https://rom2048.github.io/rsschool-cv/cv
+https://rom2048.github.io/rsschool-cv/
