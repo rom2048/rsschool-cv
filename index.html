@@ -1,3 +1,8 @@
+<!-- 
+  CV содержит изображения-ссылки на выполненные вами проекты. При клике по изображению страница проекта открывается в новой вкладке. У каждого проекта есть название, небольшое описание, указан перечень используемых технологий. +10
+  
+
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +17,7 @@
   <div class="container">
     <header>
       <div class="photo-container">
-        <img src="./roman.jpg" alt="my photo">
+        <img class="grow" src="./roman.jpg" alt="my photo">
       </div>
       <div class="info-container">
         <div class="name">
@@ -48,7 +53,9 @@
     </header>
     <main>
       <section>
+        <h2>About me</h2>
         <article>
+          <h6>I have always dreamed of becoming a programmer</h6>
           I am 25 years old. At the moment I work at a furniture factory. My passion is the development of the most modern, easy-to-use, user-friendly websites and web applications. I studied for 5 years at the Faculty of Mathematics, majoring in economic cybernetics. I have always dreamed of becoming a programmer to help people implement their ideas and promote their business with the help of Internet technologies.
         </article>
       </section>
@@ -101,6 +108,75 @@
           <div><p>A2</p></div>
         </div>
       </section>
+      <section class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <article>
+            <a href="https://github.com/rom2048/e-commerce" class="project-link">
+              <div class="project">
+                <div class="snapshot">
+                  <img class="db" src="./peplos-cloth.png" alt="screenshot website with clothing">
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">Peplos Clothing</h3>
+                  <p class="project-description">E-commerce</p>
+                  <ul class="tech">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>SCSS</li>
+                    <li>Google API</li>
+                    <li>Firebase</li>
+                    <li>Stripe</li>
+                    <li>Styled Components</li>
+                    <li>Redux</li>
+                    <li>Hooks</li>
+                </ul>
+                </div>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a href="https://github.com/rom2048/peplos-brain" class="project-link">
+              <div class="project">
+                <div class="snapshot">
+                  <img class="db" src="./peplos-brain.png" alt="screenshot website">
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">Peplos Brain</h3>
+                  <p class="project-description">Final Udemy project to recognize face from picture</p>
+                  <ul class="tech">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Tachyons</li>
+                    <li>PostrgreSQL</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>Postman</li> 
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a href="https://github.com/rom2048/human-friends" class="project-link">
+              <div class="project">
+                <div class="snapshot">
+                  <img class="db" src="./humans.png" alt="screenshot website with 10 cards and searchbox">
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">Humans friends</h3>
+                  <p class="project-description">Simple react app</p>
+                  <ul class="tech">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Tachyons</li>
+                </ul>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
       <section class="code-example">
         <h2>Code Example</h2>
         <div class="code">
@@ -126,14 +202,14 @@
       </section>
     </main>
     <footer>
-      <div>
+      <div class="grow">
         <a href="https://github.com/rom2048">
           <div class="footer-logo">
             <img src="./github-logo.svg" alt="git-ico">
           </div>
         </a>
       </div>
-      <div>
+      <div class="grow">
         <a href="https://rs.school/js/">
           <div class="rs-logo">
             <img src="./rs_school_js.svg" alt="rs-school-ico">
