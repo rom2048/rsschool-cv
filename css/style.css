@@ -322,7 +322,7 @@ body._lock {
 	margin: 30px 0;
 	font-size: 36px;
 	font-weight: 500;
-	color: #0077b7;
+	color: #05c836;
 	position: relative;
 }
 
@@ -330,7 +330,7 @@ body._lock {
 	content: "";
 	width: 90%;
 	height: 2px;
-	background-color: #0077b7;
+	background-color: #05c836;
 	position: absolute;
 	bottom: -2px;
 	left: 0;
