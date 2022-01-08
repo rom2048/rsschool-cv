@@ -7,7 +7,7 @@
 5. **GitHub:** [profile](https://github.com/rom2048)
 
 # About me:
-I am 25 years old. At the moment I work at a furniture factory. My passion is the development of the most modern, easy-to-use, user-friendly websites and web applications. 
+I am 26 years old. At the moment I work at a furniture factory. My passion is the development of the most modern, easy-to-use, user-friendly websites and web applications. 
 I studied for 5 years at the Faculty of Mathematics, majoring in economic cybernetics. I have always dreamed of becoming a programmer to help people implement their ideas and promote their business with the help of Internet technologies.
 
 # Skills:
@@ -46,6 +46,6 @@ function createPhoneNumber(numbers){
     * [Complete React Developer in 2021](https://academy.zerotomastery.io/p/complete-react-developer-redux-hooks-graphql-zero-to-mastery)
 
 # Languages
-* English - B1
+* English - A2+
 * Russian - native speaker
-* Polish - A2
+* Polish - A1
