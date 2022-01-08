@@ -13,7 +13,7 @@
   <div class="wrapper">
     <header class="header">
       <div class="header__container">
-        <a href="#!" class="header__logo">
+        <a href="https://github.com/rom2048" class="header__logo" target="_blank">
           <img src="./assets/svg/github-logo.svg" alt="logo">
         </a>
         <div class="header__menu menu">
@@ -22,54 +22,127 @@
           </div>
           <nav class="menu__body">
             <ul class="menu__list">
-              <li><a data-goto="" href="" class="menu__link">Contacts</a></li>
-              <li><a data-goto="" href="" class="menu__link">About me</a></li>
-              <li><a data-goto="" href="" class="menu__link">Education</a></li>
-              <li><a data-goto="" href="" class="menu__link">Skills</a></li>
-              <li><a data-goto="" href="" class="menu__link">Languages</a></li>
-              <li><a data-goto="" href="" class="menu__link">Projects</a></li>
-              <li><a data-goto="" href="" class="menu__link">Code example</a></li>
+              <li><a data-goto=".page__section_1" href="#" class="menu__link">Contacts</a></li>
+              <li><a data-goto=".page__section_2" href="#" class="menu__link">About me</a></li>
+              <li><a data-goto=".page__section_3" href="#" class="menu__link">Skills</a></li>
+              <li><a data-goto=".page__section_4" href="#" class="menu__link">Education</a></li>
+              <li><a data-goto=".page__section_5" href="#" class="menu__link">Languages</a></li>
+              <li><a data-goto=".page__section_6" href="#" class="menu__link">Projects</a></li>
+              <li><a data-goto=".page__section_7" href="#" class="menu__link">Code example</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
     <main>
-      <section class="section contacts">
+      <section class="section page__section_1">
         <div class="section__wrapper">
           <h2 class="title">Contacts</h2>
           <ul class="contacts__list">
-            <li><a href="#!" class="contacts__link telegram"></a></li>
-            <li><a href="#!" class="contacts__link discord"></a></li>
-            <li><a href="#!" class="contacts__link linkedin"></a></li>
-            <li><a href="#!" class="contacts__link facebook"></a></li>
-            <li><a href="#!" class="contacts__link phone"></a></li>
-            <li><a href="#!" class="contacts__link gmail"></a></li>
+            <li><a href="https://t.me/rom2048" target="_blank" class="contacts__link telegram">Telegram</a></li>
+            <li><a href="https://discordapp.com/users/900336133756579880/" target="_blank" class="contacts__link discord">rom2048</a></li>
+            <li><a href="https://www.linkedin.com/in/roman-mamontov-b7b355149/" target="_blank" class="contacts__link linkedin">Linkedin</a></li>
+            <li><a href="https://www.facebook.com/roman.mamontov.146" target="_blank" class="contacts__link facebook">Facebook</a></li>
+            <li><a href="tel:+375445941007" target="_blank" class="contacts__link phone">Phone</a></li>
+            <li><a href="mailto:mamontov.r1995@gmail.com" target="_blank" class="contacts__link gmail">Email</a></li>
+            <li><a href="https://github.com/rom2048" target="_blank" class="contacts__link git-link">Github</a></li>
           </ul>
         </div>
       </section>
-      <section class="section about-me">
-        <div class="section__wrapper"></div>
+      <section class="section page__section_2">
+        <div class="section__wrapper">
+          <h2 class="title">About myself</h2>
+          <div class="about-me__body">
+            <div class="about-me__photo">
+              <img src="./assets/img/roman.jpg" alt="It\'s me">
+            </div>
+            <div class="about-me__text">
+              <p>I am 26 years old. At the moment I work at a furniture factory.</p>
+              <p>My passion is the development of the most modern, easy-to-use, user-friendly websites and web applications.</p>
+              <p>I studied for 5 years at the Faculty of Mathematics, majoring in economic cybernetics.</p>
+              <p>I have always dreamed of becoming a programmer to help people implement their ideas and promote their business with the help of Internet technologies.</p>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="section skills">
-        <div class="section__wrapper"></div>
+      <section class="section page__section_3">
+        <div class="section__wrapper">
+          <h2 class="title">Skills</h2>
+          <ul class="languages__body">
+            <li class="language html">HTML</li>
+            <li class="language css">CSS</li>
+            <li class="language js">JavaScript</li>
+            <li class="language sql">PostgreSQL</li>
+            <li class="language git">git</li>
+          </ul>
+        </div>
       </section>
-      <section class="section education">
-        <div class="section__wrapper"></div>
+      <section class="section page__section_4">
+        <div class="section__wrapper">
+          <h2 class="title">Education</h2>
+          <div class="education__list">
+            <div class="education__item">
+              <h5 class="education-year">2021 - now</h5>
+              <a class="education__link" href="https://rs.school/" target="_blank">The Rolling Scopes</a>
+            </div>
+            <div class="education__item">
+              <h5 class="education-year">2020 - 2021</h5>
+              <a class="education__link pb5" target="_blank" href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery">The complete web developer</a>
+              <a class="education__link" target="_blank" href="https://academy.zerotomastery.io/p/complete-react-developer-redux-hooks-graphql-zero-to-mastery">Complete react developer in 2021</a>
+            </div>
+            <div class="education__item">
+              <h5 class="education-year">2012 - 2017</h5>
+              <a class="education__link" target="_blank" href="http://gsu.by/en">Gomel State University Francisk Skorina, Faculty of Mathematics - Economic cybernetics.</a>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="section languages">
+      <section class="section page__section_5">
         <div class="section__wrapper">
           <h2 class="title">Languages</h2>
-          <div class="languages__body">
-            <div class="language en">English - A2+</div>
-            <div class="language ru">Russian - native</div>
-            <div class="language pl">Polish - A1</div>
-          </div>
+          <ul class="languages__body">
+            <li class="language en">English - A2+</li>
+            <li class="language ru">Russian - native</li>
+            <li class="language pl">Polish - A1</li>
+          </ul>
         </div>
 
       </section>
-      <section class="section projects"></section>
-      <section class="section code-example">
+      <section class="section page__section_6">
+        <div class="section__wrapper">
+          <h2 class="title">Projects</h2>
+          <div class="projects__body">
+            <a href="http://peplos-clothing.herokuapp.com/" class="projects__link card" target="_blank">
+              <div class="card__img">
+                <img src="./assets/img/peplos-cloth.png" alt="peplos-cloth">
+              </div>
+              <div class="card__body">
+                <h3 class="card-title">Peplos Cloth</h3>
+                <p class="card-text">Awesome app, e-commerce</p>
+              </div>
+            </a>
+            <a href="https://peplos-brain.herokuapp.com/" class="projects__link card" target="_blank">
+              <div class="card__img">
+                <img src="./assets/img/peplos-brain.png" alt="face recognition app">
+              </div>
+              <div class="card__body">
+                <h3 class="card-title">Peplos Brain</h3>
+                <p class="card-text">Awesome app, that searchs face on picture</p>
+              </div>
+            </a>
+            <a href="https://rom2048.github.io/human-friends/" class="projects__link card" target="_blank">
+              <div class="card__img">
+                <img src="./assets/img/humans.png" alt="humans app">
+              </div>
+              <div class="card__body">
+                <h3 class="card-title">Humans friends</h3>
+                <p class="card-text">simple app that search humans</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section page__section_7">
         <div class="section__wrapper">
           <h2 class="title">Code Example</h2>
           <div class="code">
@@ -88,7 +161,7 @@ function findUniq(arr) {
     </main>
     <footer class="footer">
       <div class="footer__container">
-        <a href="https://github.com/rom2048" class="footer__item git" target="_blank">
+        <a href="https://github.com/rom2048" class="footer__item" target="_blank">
           <img src="./assets/svg/github-logo.svg" alt="git_logo">
         </a>
         <a href="https://rs.school/js/" class="footer__item rs" target="_blank">
