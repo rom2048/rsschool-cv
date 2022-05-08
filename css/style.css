@@ -379,6 +379,12 @@ main {
 	flex: 0 0 345px
 }
 
+@media screen and (max-width: 767px){
+	.about-me__photo {
+		flex: 0 0 250px;
+	}
+}
+
 .about-me__photo > img {
 	width: 100%;
 }
@@ -478,7 +484,7 @@ main {
 	display: block;
 	max-width: 16rem;
 	height: auto;
-	color: #000;
+	color: #fff;
 
 	border-radius: .25rem;
 	border-color: rgba(0,0,0,0.1);
