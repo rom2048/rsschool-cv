@@ -449,6 +449,10 @@ main {
 	background: url(../assets/svg/github.svg) no-repeat;
 }
 
+.node {
+	background: url(../assets/svg/Node.js_logo.svg) no-repeat;
+}
+
 .language {
 	width: 100%;
 	height: 35px;
