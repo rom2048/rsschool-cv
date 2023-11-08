@@ -1,0 +1,183 @@
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/raleway-v29-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/raleway-v29-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0 0 0 / 0.1);
+  font-family: Raleway, sans-serif;
+  transition: all ease 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.photo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 9999px;
+  margin: 0 auto 2.5rem;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr 1.5fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  background-color: #f8f6f2;
+}
+
+.white-block {
+  width: 100%;
+  padding: 3rem 3rem 1rem 3rem;
+  text-align: left;
+  overflow: hidden;
+
+  background-color: #fff;
+  box-shadow: 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.div1 {
+  grid-area: 1 / 1 / 4 / 2;
+  padding: 2rem;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  border-bottom-left-radius: 0.5rem;
+}
+.div3 {
+  grid-area: 2 / 2 / 3 / 3;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.div4 {
+  grid-area: 3 / 2 / 4 / 3;
+  border-top-left-radius: 0.5rem;
+}
+
+.name {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+.f600 {
+  font-weight: 600;
+}
+
+.ls2 {
+  letter-spacing: 2px;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.aic {
+  align-items: center;
+}
+
+.gap5 {
+  gap: 0.5rem;
+}
+.gap10 {
+  gap: 1rem;
+}
+.gap15 {
+  gap: 1.5rem;
+}
+
+.inline {
+  display: inline;
+}
+
+.ico {
+  position: relative;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.briefcase {
+  background-image: url(./assets/icons/briefcase.svg);
+}
+
+.user {
+  background-image: url(./assets/icons/user.svg);
+}
+
+.envelope {
+  background-image: url(./assets/icons/envelope.svg);
+}
+
+.paper {
+  background-image: url(./assets/icons/paper-plane.svg);
+}
+
+.phone {
+  background-image: url(./assets/icons/phone-call.svg);
+}
+
+.play {
+  background-image: url(./assets/icons/play.svg);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-text {
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .photo {
+    width: 14rem;
+    height: 14rem;
+  }
+}
