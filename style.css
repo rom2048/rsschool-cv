@@ -31,6 +31,12 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+}
+
+a:hover {
+  color: #993000;
 }
 
 ul {
@@ -56,7 +62,7 @@ video {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1.3fr;
   grid-column-gap: 0px;
   grid-row-gap: 20px;
   background-color: #f8f6f2;
@@ -127,6 +133,14 @@ video {
   align-items: center;
 }
 
+.jcsb {
+  justify-content: space-between;
+}
+
+.col {
+  flex-direction: column;
+}
+
 .gap5 {
   gap: 0.5rem;
 }
@@ -178,6 +192,50 @@ video {
 
 .git {
   background-image: url(./assets/icons/github-logo.svg);
+}
+
+.html {
+  background-image: url(./assets/icons/html-5.svg);
+}
+
+.css {
+  background-image: url(./assets/icons/css3.svg);
+}
+
+.js {
+  background-image: url(./assets/icons/javascript.svg);
+}
+
+.sql {
+  background-image: url(./assets/icons/postgresql.svg);
+}
+
+.node {
+  background-image: url(./assets/icons/Node.js_logo.svg);
+}
+.react {
+  background-image: url(./assets/icons/react-2.svg);
+}
+.redux {
+  background-image: url(./assets/icons/redux.svg);
+}
+.mongo {
+  background-image: url(./assets/icons/mongodb-icon-1.svg);
+}
+.ts {
+  background-image: url(./assets/icons/typescript.svg);
+}
+
+.pl {
+  background-image: url(./assets/icons/pl.svg);
+}
+
+.ru {
+  background-image: url(./assets/icons/ru.svg);
+}
+
+.en {
+  background-image: url(./assets/icons/en.svg);
 }
 
 .subtitle {
@@ -232,6 +290,28 @@ video {
   margin-top: 1.5rem;
 }
 
+.skills-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.education-list {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .education-list {
+    gap: 1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .photo {
     width: 14rem;
@@ -242,5 +322,8 @@ video {
 @media screen and (min-width: 640px) {
   .project {
     flex-direction: row;
+  }
+  .education-list {
+    gap: 2rem;
   }
 }
