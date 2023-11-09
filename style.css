@@ -33,6 +33,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 img,
 video {
   display: block;
@@ -52,7 +56,7 @@ video {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr 1.5fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 20px;
   background-color: #f8f6f2;
@@ -99,12 +103,20 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt3 {
+  margin-top: 3rem;
+}
+
 .f600 {
   font-weight: 600;
 }
 
 .ls2 {
   letter-spacing: 2px;
+}
+
+.lh2 {
+  line-height: 2rem;
 }
 
 .ttu {
@@ -164,6 +176,10 @@ video {
   background-image: url(./assets/icons/play.svg);
 }
 
+.git {
+  background-image: url(./assets/icons/github-logo.svg);
+}
+
 .subtitle {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
@@ -175,9 +191,56 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.project-list {
+  margin-top: -3rem;
+}
+
+.project {
+  display: flex;
+  gap: 2.5rem;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.project-img {
+  width: 13rem;
+  flex: none;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.project-details-wrapper {
+  max-width: 36rem;
+  flex: auto;
+}
+
+.project-date {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #4b5563;
+}
+
+.project-details {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #4b5563;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
   .photo {
     width: 14rem;
     height: 14rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .project {
+    flex-direction: row;
   }
 }
